@@ -1,2 +1,2 @@
-*.envrc
-*flake.lock
+.envrc
+flake.lock
