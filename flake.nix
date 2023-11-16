@@ -3,6 +3,7 @@
   inputs = {
     nixpkgs = {
       url = "github:nixos/nixpkgs/nixos-unstable";
+
     };
     utils = {
       url = "github:numtide/flake-utils";
@@ -38,9 +39,10 @@
             llvm.libcxx
 
             # libs
-            #glm
+            sfml
+            glm
             SDL2
-            #SDL2_gfx
+            SDL2_gfx
           ];
           name = "C";
         };

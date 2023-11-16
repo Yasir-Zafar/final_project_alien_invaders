@@ -1,0 +1,4 @@
+/.envrc
+/flake.lock
+.direnv/
+.ccls-cache/
