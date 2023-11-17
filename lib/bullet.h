@@ -10,5 +10,6 @@ struct Bullet
 };
 
 void initBullet ( Bullet &bullet, float speed, float x, float y );
+void moveBullet ( Bullet &bullet, float deltaTime );
 
 #endif

@@ -1,6 +1,7 @@
 CMakeFiles/AlienInvaders.dir/src/player.cpp.o: \
   /home/boi/Projects/C++/Uni/Final/src/player.cpp \
   /home/boi/Projects/C++/Uni/Final/src/../lib/player.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/bullet.h \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Window.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/System.hpp \

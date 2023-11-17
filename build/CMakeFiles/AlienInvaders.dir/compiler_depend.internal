@@ -304,6 +304,7 @@ CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o
 CMakeFiles/AlienInvaders.dir/src/invader.cpp.o
  /home/boi/Projects/C++/Uni/Final/src/invader.cpp
  /home/boi/Projects/C++/Uni/Final/lib/invader.h
+ /home/boi/Projects/C++/Uni/Final/lib/bullet.h
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Window.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/System.hpp
@@ -901,11 +902,13 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.o
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Text.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
  /home/boi/Projects/C++/Uni/Final/lib/invader.h
+ /home/boi/Projects/C++/Uni/Final/lib/bullet.h
  /home/boi/Projects/C++/Uni/Final/lib/player.h
 
 CMakeFiles/AlienInvaders.dir/src/player.cpp.o
  /home/boi/Projects/C++/Uni/Final/src/player.cpp
  /home/boi/Projects/C++/Uni/Final/lib/player.h
+ /home/boi/Projects/C++/Uni/Final/lib/bullet.h
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Window.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/System.hpp

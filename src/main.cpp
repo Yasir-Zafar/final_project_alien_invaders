@@ -11,30 +11,37 @@ int main ()
     // Initialize player
     Player player;
     Invader invader;
-    Invader invader1;
-    Invader invader2;
-    Invader invader3;
-    Invader invader4;
-    Bullet bullet;
+    Bullet playerBullet;
+    Bullet invaderBullet;
 
     initPlayer ( player, 200.0f );
-    initInvader ( invader, 100.0f, 400.0f, 400.0f );
-    initInvader ( invader1, 100.0f, 500.0f, 400.0f );
-    initInvader ( invader2, 100.0f, 300.0f, 400.0f );
-    initInvader ( invader3, 100.0f, 300.0f, 450.0f );
-    initInvader ( invader4, 100.0f, 500.0f, 450.0f );
-    initBullet ( bullet, 300.0f, 0.0f, 0.0f );
+    initInvader ( invader, 100.0f, 400.0f, 100.0f );
+    initBullet ( playerBullet, 300.0f, 0.0f, 0.0f );
+    initBullet ( invaderBullet, 200.0f, 0.0f, 0.0f );
+
+    sf::Clock clock;
 
     // Main game loop
     while ( window.isOpen () )
     {
-        // Handle events
+        // Handle Events
         sf::Event event;
         while ( window.pollEvent ( event ) )
         {
             if ( event.type == sf::Event::Closed )
                 window.close ();
+            // Check for shoot input
+            if ( event.type == sf::Event::KeyPressed )
+                if ( event.key.code == sf::Keyboard::Space )
+                    shootBullet ( player, playerBullet );
         }
+        float deltaTime = clock.restart ().asSeconds ();
+
+        // Update game logic here
+        movePlayer ( player, deltaTime );
+        updateInvader ( invader, deltaTime, invaderBullet );
+        moveBullet ( playerBullet, deltaTime );
+        moveBullet ( invaderBullet, deltaTime );
 
         // Clear the window
         window.clear ();
@@ -42,11 +49,8 @@ int main ()
         // Draw game entities here
         window.draw ( player.shape );
         window.draw ( invader.shape );
-        window.draw ( invader1.shape );
-        window.draw ( invader2.shape );
-        window.draw ( invader3.shape );
-        window.draw ( invader4.shape );
-        window.draw ( bullet.shape );
+        window.draw ( playerBullet.shape );
+        window.draw ( invaderBullet.shape );
 
         // Display the contents of the window
         window.display ();
