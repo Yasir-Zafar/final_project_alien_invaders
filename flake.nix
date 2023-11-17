@@ -40,9 +40,11 @@
 
             # libs
             sfml
-            glm
-            SDL2
-            SDL2_gfx
+            freetype
+            xorg.libX11
+            xorg.libXrandr
+            xorg.libXcursor
+            udev
           ];
           name = "C";
         };
