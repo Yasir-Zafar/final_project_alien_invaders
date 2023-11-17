@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS =  -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -g
+CXX_FLAGS = -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow
 

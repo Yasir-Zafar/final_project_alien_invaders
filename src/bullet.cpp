@@ -1,15 +1,11 @@
 #include "../lib/bullet.h"
 
-void initBullet ( Bullet &bullet, float speed, float x, float y )
+void Bullet::initialize ( sf::Vector2f position )
 {
-    bullet.shape.setSize ( sf::Vector2f ( 5, 5 ) );
-    bullet.shape.setFillColor ( sf::Color ::Green );
-    bullet.shape.setPosition ( x, y );
-    bullet.speed = speed;
+    shape.setSize ( sf::Vector2f ( 5, 5 ) );
+    shape.setFillColor ( sf::Color::Red );
+    shape.setPosition ( position );
+    velocity = sf::Vector2f ( 0, -800 ); // Adjust the speed as needed
 }
 
-void moveBullet ( Bullet &bullet, float deltaTime )
-{
-    // Move the bullet vertically
-    bullet.shape.move ( 0, -bullet.speed * deltaTime );
-}
+void Bullet::move ( float deltaTime ) { shape.move ( velocity * deltaTime ); }

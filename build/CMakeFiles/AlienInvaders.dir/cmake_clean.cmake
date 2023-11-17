@@ -3,12 +3,16 @@ file(REMOVE_RECURSE
   "AlienInvaders.pdb"
   "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o.d"
-  "CMakeFiles/AlienInvaders.dir/src/invader.cpp.o"
-  "CMakeFiles/AlienInvaders.dir/src/invader.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/main.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/main.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/player.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/player.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

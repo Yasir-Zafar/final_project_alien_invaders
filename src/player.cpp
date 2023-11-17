@@ -1,33 +1,16 @@
 #include "../lib/player.h"
 
-void initPlayer ( Player &player, float speed )
+void Player::initialize ()
 {
-    player.shape.setSize ( sf::Vector2f ( 10, 10 ) );
-    player.shape.setFillColor ( sf::Color ::White );
-    player.shape.setPosition ( 400, 500 );
-    player.speed = speed;
+    shape.setSize ( sf::Vector2f ( 40, 40 ) );
+    shape.setFillColor ( sf::Color::Green );
+    shape.setPosition ( 375, 500 ); // Center the player
 }
 
-void movePlayer ( Player &player, float deltaTime )
+void Player::move ( float offsetX, float offsetY, float deltaTime )
 {
-    // Move the player based on keyboard input
-    if ( sf::Keyboard::isKeyPressed ( sf::Keyboard::Left ) &&
-         player.shape.getPosition ().x > 0 )
-    {
-        player.shape.move ( -player.speed * deltaTime, 0 );
-    }
-    if ( sf::Keyboard::isKeyPressed ( sf::Keyboard::Right ) &&
-         player.shape.getPosition ().x < 750 )
-    {
-        player.shape.move ( player.speed * deltaTime, 0 );
-    }
-}
+    // Adjust the movement based on delta time
+    float speed = 400.0f;
 
-void shootBullet ( Player &player, Bullet &bullet )
-{
-    // Shoot a bullet from the player's position
-    bullet.shape.setPosition ( player.shape.getPosition ().x +
-                                   player.shape.getSize ().x / 2 -
-                                   bullet.shape.getSize ().x / 2,
-                               player.shape.getPosition ().y );
+    shape.move ( offsetX * speed * deltaTime, offsetY * speed * deltaTime );
 }

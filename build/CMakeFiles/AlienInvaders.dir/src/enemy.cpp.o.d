@@ -1,6 +1,6 @@
-CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o: \
-  /home/boi/Projects/C++/Uni/Final/src/bullet.cpp \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/bullet.h \
+CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: \
+  /home/boi/Projects/C++/Uni/Final/src/enemy.cpp \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/enemy.h \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Window.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/System.hpp \

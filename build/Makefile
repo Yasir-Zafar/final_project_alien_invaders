@@ -198,29 +198,53 @@ src/bullet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/bullet.cpp.s
 .PHONY : src/bullet.cpp.s
 
-src/invader.o: src/invader.cpp.o
-.PHONY : src/invader.o
+src/bulletFunctions.o: src/bulletFunctions.cpp.o
+.PHONY : src/bulletFunctions.o
 
 # target to build an object file
-src/invader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/invader.cpp.o
-.PHONY : src/invader.cpp.o
+src/bulletFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o
+.PHONY : src/bulletFunctions.cpp.o
 
-src/invader.i: src/invader.cpp.i
-.PHONY : src/invader.i
+src/bulletFunctions.i: src/bulletFunctions.cpp.i
+.PHONY : src/bulletFunctions.i
 
 # target to preprocess a source file
-src/invader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/invader.cpp.i
-.PHONY : src/invader.cpp.i
+src/bulletFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.i
+.PHONY : src/bulletFunctions.cpp.i
 
-src/invader.s: src/invader.cpp.s
-.PHONY : src/invader.s
+src/bulletFunctions.s: src/bulletFunctions.cpp.s
+.PHONY : src/bulletFunctions.s
 
 # target to generate assembly for a file
-src/invader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/invader.cpp.s
-.PHONY : src/invader.cpp.s
+src/bulletFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.s
+.PHONY : src/bulletFunctions.cpp.s
+
+src/gameFunctions.o: src/gameFunctions.cpp.o
+.PHONY : src/gameFunctions.o
+
+# target to build an object file
+src/gameFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o
+.PHONY : src/gameFunctions.cpp.o
+
+src/gameFunctions.i: src/gameFunctions.cpp.i
+.PHONY : src/gameFunctions.i
+
+# target to preprocess a source file
+src/gameFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.i
+.PHONY : src/gameFunctions.cpp.i
+
+src/gameFunctions.s: src/gameFunctions.cpp.s
+.PHONY : src/gameFunctions.s
+
+# target to generate assembly for a file
+src/gameFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.s
+.PHONY : src/gameFunctions.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -270,6 +294,30 @@ src/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
+src/playerFunctions.o: src/playerFunctions.cpp.o
+.PHONY : src/playerFunctions.o
+
+# target to build an object file
+src/playerFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o
+.PHONY : src/playerFunctions.cpp.o
+
+src/playerFunctions.i: src/playerFunctions.cpp.i
+.PHONY : src/playerFunctions.i
+
+# target to preprocess a source file
+src/playerFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.i
+.PHONY : src/playerFunctions.cpp.i
+
+src/playerFunctions.s: src/playerFunctions.cpp.s
+.PHONY : src/playerFunctions.s
+
+# target to generate assembly for a file
+src/playerFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.s
+.PHONY : src/playerFunctions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,15 +334,21 @@ help:
 	@echo "... src/bullet.o"
 	@echo "... src/bullet.i"
 	@echo "... src/bullet.s"
-	@echo "... src/invader.o"
-	@echo "... src/invader.i"
-	@echo "... src/invader.s"
+	@echo "... src/bulletFunctions.o"
+	@echo "... src/bulletFunctions.i"
+	@echo "... src/bulletFunctions.s"
+	@echo "... src/gameFunctions.o"
+	@echo "... src/gameFunctions.i"
+	@echo "... src/gameFunctions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/playerFunctions.o"
+	@echo "... src/playerFunctions.i"
+	@echo "... src/playerFunctions.s"
 .PHONY : help
 
 

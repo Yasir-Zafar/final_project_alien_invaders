@@ -1,17 +1,15 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "../lib/bullet.h"
 #include <SFML/Graphics.hpp>
 
+// Player structure
 struct Player
 {
     sf::RectangleShape shape;
-    float speed;
+
+    void initialize ();
+    void move ( float offsetX, float offsetY, float deltaTime );
 };
 
-void initPlayer ( Player &player, float speed );
-void movePlayer ( Player &player, float deltaTime );
-void shootBullet ( Player &player, Bullet &bullet );
-
-#endif
+#endif // PLAYER_H

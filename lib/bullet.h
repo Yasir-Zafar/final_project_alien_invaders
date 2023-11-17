@@ -6,10 +6,10 @@
 struct Bullet
 {
     sf::RectangleShape shape;
-    float speed{}, x{}, y{};
+    sf::Vector2f velocity;
+
+    void initialize ( sf::Vector2f position );
+    void move ( float deltaTime );
 };
 
-void initBullet ( Bullet &bullet, float speed, float x, float y );
-void moveBullet ( Bullet &bullet, float deltaTime );
-
-#endif
+#endif // BULLET_H
