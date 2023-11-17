@@ -1,5 +1,6 @@
-.envrc
-/flake.lock
 .direnv/
 .ccls-cache/
+.cache/
 build/
+.envrc
+flake.lock
