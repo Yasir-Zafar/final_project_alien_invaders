@@ -1,4 +1,3 @@
-// PlayerFunctions.cpp
 #include "../lib/playerFunctions.h"
 #include "../lib/gameFunctions.h"
 

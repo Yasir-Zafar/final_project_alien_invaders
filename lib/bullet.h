@@ -1,5 +1,4 @@
-#ifndef BULLET_H
-#define BULLET_H
+#pragma once
 
 #include <SFML/Graphics.hpp>
 
@@ -11,5 +10,3 @@ struct Bullet
     void initialize ( sf::Vector2f position );
     void move ( float deltaTime );
 };
-
-#endif // BULLET_H

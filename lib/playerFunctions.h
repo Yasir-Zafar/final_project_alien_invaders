@@ -1,5 +1,4 @@
-#ifndef PLAYER_FUNCTIONS_H
-#define PLAYER_FUNCTIONS_H
+#pragma once
 
 #include "../lib/bullet.h"
 #include "../lib/player.h"
@@ -8,5 +7,3 @@
 void handlePlayerMovement ( Player &player, sf::Clock &clock );
 void handleBulletShooting ( Player &player, Bullet bullets [],
                             int &bulletCount );
-
-#endif // PLAYER_FUNCTIONS_H

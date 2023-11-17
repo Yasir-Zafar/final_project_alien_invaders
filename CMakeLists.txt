@@ -11,9 +11,11 @@ add_executable(AlienInvaders
     src/main.cpp
     src/player.cpp
     src/bullet.cpp
+    src/enemy.cpp
     src/gameFunctions.cpp
     src/playerFunctions.cpp
     src/bulletFunctions.cpp
+    src/enemyFunctions.cpp
 )
 
 # Set flags

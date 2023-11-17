@@ -1,5 +1,4 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#pragma once
 
 #include <SFML/Graphics.hpp>
 
@@ -11,5 +10,3 @@ struct Player
     void initialize ();
     void move ( float offsetX, float offsetY, float deltaTime );
 };
-
-#endif // PLAYER_H

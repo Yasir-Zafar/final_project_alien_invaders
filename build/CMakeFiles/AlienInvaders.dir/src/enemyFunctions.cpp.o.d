@@ -1,7 +1,7 @@
 CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: \
   /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp \
   /home/boi/Projects/C++/Uni/Final/src/../lib/enemyFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/bullet.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Window.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/System.hpp \
@@ -307,7 +307,4 @@ CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Glsl.inl \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
-  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/gameState.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h
+  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp

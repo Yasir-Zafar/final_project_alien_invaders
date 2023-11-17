@@ -222,6 +222,54 @@ src/bulletFunctions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.s
 .PHONY : src/bulletFunctions.cpp.s
 
+src/enemy.o: src/enemy.cpp.o
+.PHONY : src/enemy.o
+
+# target to build an object file
+src/enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o
+.PHONY : src/enemy.cpp.o
+
+src/enemy.i: src/enemy.cpp.i
+.PHONY : src/enemy.i
+
+# target to preprocess a source file
+src/enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemy.cpp.i
+.PHONY : src/enemy.cpp.i
+
+src/enemy.s: src/enemy.cpp.s
+.PHONY : src/enemy.s
+
+# target to generate assembly for a file
+src/enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemy.cpp.s
+.PHONY : src/enemy.cpp.s
+
+src/enemyFunctions.o: src/enemyFunctions.cpp.o
+.PHONY : src/enemyFunctions.o
+
+# target to build an object file
+src/enemyFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o
+.PHONY : src/enemyFunctions.cpp.o
+
+src/enemyFunctions.i: src/enemyFunctions.cpp.i
+.PHONY : src/enemyFunctions.i
+
+# target to preprocess a source file
+src/enemyFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i
+.PHONY : src/enemyFunctions.cpp.i
+
+src/enemyFunctions.s: src/enemyFunctions.cpp.s
+.PHONY : src/enemyFunctions.s
+
+# target to generate assembly for a file
+src/enemyFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s
+.PHONY : src/enemyFunctions.cpp.s
+
 src/gameFunctions.o: src/gameFunctions.cpp.o
 .PHONY : src/gameFunctions.o
 
@@ -337,6 +385,12 @@ help:
 	@echo "... src/bulletFunctions.o"
 	@echo "... src/bulletFunctions.i"
 	@echo "... src/bulletFunctions.s"
+	@echo "... src/enemy.o"
+	@echo "... src/enemy.i"
+	@echo "... src/enemy.s"
+	@echo "... src/enemyFunctions.o"
+	@echo "... src/enemyFunctions.i"
+	@echo "... src/enemyFunctions.s"
 	@echo "... src/gameFunctions.o"
 	@echo "... src/gameFunctions.i"
 	@echo "... src/gameFunctions.s"

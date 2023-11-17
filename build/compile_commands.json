@@ -19,6 +19,12 @@
 },
 {
   "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++   -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow -o CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemy.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/enemy.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o"
+},
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
   "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++   -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow -o CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/gameFunctions.cpp",
   "file": "/home/boi/Projects/C++/Uni/Final/src/gameFunctions.cpp",
   "output": "CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o"
@@ -34,5 +40,11 @@
   "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++   -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow -o CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp",
   "file": "/home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp",
   "output": "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o"
+},
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++   -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow -o CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o"
 }
 ]
