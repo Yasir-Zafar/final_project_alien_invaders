@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++    -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -g -o CMakeFiles/AlienInvaders.dir/src/main.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/main.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/main.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++    -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -g -o CMakeFiles/AlienInvaders.dir/src/player.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/player.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/player.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/player.cpp.o"
+},
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++    -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -g -o CMakeFiles/AlienInvaders.dir/src/invader.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/invader.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/invader.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/invader.cpp.o"
+},
+{
+  "directory": "/home/boi/Projects/C++/Uni/Final/build",
+  "command": "/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++    -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -g -o CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/bullet.cpp",
+  "file": "/home/boi/Projects/C++/Uni/Final/src/bullet.cpp",
+  "output": "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o"
+}
+]
