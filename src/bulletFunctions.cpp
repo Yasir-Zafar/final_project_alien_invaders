@@ -3,19 +3,37 @@
 
 void updateBullets ( Bullet bullets [], int &bulletCount, float deltaTime )
 {
-    // Update bullets
-    for ( int i = 0; i < bulletCount; ++i )
-        bullets [ i ].move ( deltaTime );
+    moveBullets ( bullets, bulletCount, deltaTime );
+    removeOutOfBoundsBullets ( bullets, bulletCount );
+}
 
-    // Remove bullets that are out of bounds
+void moveBullets ( Bullet bullets [], int &bulletCount, float deltaTime )
+{
     for ( int i = 0; i < bulletCount; ++i )
-        if ( bullets [ i ].shape.getPosition ().y < 0 )
+    {
+        bullets [ i ].move ( deltaTime );
+    }
+}
+
+void removeOutOfBoundsBullets ( Bullet bullets [], int &bulletCount )
+{
+    for ( int i = 0; i < bulletCount; ++i )
+    {
+        if ( isBulletOutOfBounds ( bullets [ i ] ) )
         {
-            // Move the last bullet to the current position, and reduce the
-            // bullet count
-            bullets [ i ] = bullets [ bulletCount - 1 ];
-            bulletCount--;
-            i--;
-            // Move the index back by one so that we don't skip the next bullet
+            removeBulletAtIndex ( bullets, bulletCount, i );
+            --i; // Adjust the index after removal
         }
+    }
+}
+
+bool isBulletOutOfBounds ( const Bullet &bullet )
+{
+    return bullet.shape.getPosition ().y < 0;
+}
+
+void removeBulletAtIndex ( Bullet bullets [], int &bulletCount, int index )
+{
+    bullets [ index ] = bullets [ bulletCount - 1 ];
+    --bulletCount;
 }

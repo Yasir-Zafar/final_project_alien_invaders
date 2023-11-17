@@ -17,4 +17,8 @@ void update ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
 void render ( sf::RenderWindow &window, const Player &player,
               const Bullet bullets [ MAX_BULLETS ], int bulletCount );
 
+void drawPlayer ( sf::RenderWindow &window, const Player &player );
+void drawBullets ( sf::RenderWindow &window,
+                   const Bullet bullets [ MAX_BULLETS ], int bulletCount );
+
 #endif // GAME_FUNCTIONS_H

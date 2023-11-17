@@ -24,17 +24,35 @@ void update ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
     updateBullets ( bullets, bulletCount, deltaTime );
 }
 
+void drawPlayer ( sf::RenderWindow &window, const Player &player )
+{
+    window.draw ( player.shape );
+}
+
+void drawBullets ( sf::RenderWindow &window,
+                   const Bullet bullets [ MAX_BULLETS ], int bulletCount )
+{
+    // Use a range-based for loop to iterate through bullets
+    for ( const auto &bullet : bullets )
+    {
+        // Draw the bullet only if it is within the valid range
+        if ( isValidBullet ( bullet ) )
+        {
+            window.draw ( bullet.shape );
+        }
+    }
+}
+
 void render ( sf::RenderWindow &window, const Player &player,
               const Bullet bullets [ MAX_BULLETS ], int bulletCount )
 {
     window.clear ();
 
-    // Draw the player
-    window.draw ( player.shape );
+    // Draw player using the drawPlayer function
+    drawPlayer ( window, player );
 
-    // Draw bullets
-    for ( int i = 0; i < bulletCount; ++i )
-        window.draw ( bullets [ i ].shape );
+    // Draw bullets using the drawBullets function
+    drawBullets ( window, bullets, bulletCount );
 
     window.display ();
 }

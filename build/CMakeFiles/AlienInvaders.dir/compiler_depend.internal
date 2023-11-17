@@ -932,12 +932,8 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Text.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
- /home/boi/Projects/C++/Uni/Final/lib/enemy.h
- /home/boi/Projects/C++/Uni/Final/lib/gameState.h
  /home/boi/Projects/C++/Uni/Final/lib/player.h
  /home/boi/Projects/C++/Uni/Final/lib/bulletFunctions.h
- /home/boi/Projects/C++/Uni/Final/lib/enemyFunctions.h
- /home/boi/Projects/C++/Uni/Final/lib/gameState.h
  /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h
 
 CMakeFiles/AlienInvaders.dir/src/main.cpp.o
@@ -1251,8 +1247,6 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.o
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
  /home/boi/Projects/C++/Uni/Final/lib/gameFunctions.h
  /home/boi/Projects/C++/Uni/Final/lib/bullet.h
- /home/boi/Projects/C++/Uni/Final/lib/enemy.h
- /home/boi/Projects/C++/Uni/Final/lib/gameState.h
  /home/boi/Projects/C++/Uni/Final/lib/player.h
  /home/boi/Projects/C++/Uni/Final/lib/player.h
 
@@ -1876,8 +1870,6 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Text.hpp
  /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
- /home/boi/Projects/C++/Uni/Final/lib/gameState.h
- /home/boi/Projects/C++/Uni/Final/lib/enemy.h
  /home/boi/Projects/C++/Uni/Final/lib/player.h
  /home/boi/Projects/C++/Uni/Final/lib/gameFunctions.h
 
