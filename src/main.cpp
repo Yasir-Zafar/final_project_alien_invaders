@@ -17,9 +17,11 @@ int main ()
 
     while ( window.isOpen () )
     {
-        processEvents ( window, player, bullets, bulletCount, clock );
-        update ( bullets, bulletCount, clock.restart ().asSeconds () );
-        render ( window, player, bullets, bulletCount );
+        // Handle game logic
+        processGame ( window, player, bullets, bulletCount, clock );
+
+        // Draw the game
+        renderGame ( window, player, bullets, bulletCount );
     }
 
     return 0;

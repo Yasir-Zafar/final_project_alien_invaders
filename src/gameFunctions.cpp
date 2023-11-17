@@ -2,6 +2,14 @@
 #include "../lib/bulletFunctions.h"
 #include "../lib/playerFunctions.h"
 
+void processGame ( sf::RenderWindow &window, Player &player,
+                   Bullet bullets [ MAX_BULLETS ], int &bulletCount,
+                   sf::Clock &clock )
+{
+    processEvents ( window, player, bullets, bulletCount, clock );
+    updateGame ( bullets, bulletCount, clock.restart ().asSeconds () );
+}
+
 void processEvents ( sf::RenderWindow &window, Player &player,
                      Bullet bullets [ MAX_BULLETS ], int &bulletCount,
                      sf::Clock &clock )
@@ -11,17 +19,23 @@ void processEvents ( sf::RenderWindow &window, Player &player,
         if ( event.type == sf::Event::Closed )
             window.close ();
 
-    // Handle player input
     handlePlayerMovement ( player, clock );
-
-    // Shoot bullets
     handleBulletShooting ( player, bullets, bulletCount );
 }
 
-void update ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
-              float deltaTime )
+void updateGame ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
+                  float deltaTime )
 {
     updateBullets ( bullets, bulletCount, deltaTime );
+}
+
+void renderGame ( sf::RenderWindow &window, const Player &player,
+                  const Bullet bullets [ MAX_BULLETS ], int bulletCount )
+{
+    window.clear ();
+    drawPlayer ( window, player );
+    drawBullets ( window, bullets, bulletCount );
+    window.display ();
 }
 
 void drawPlayer ( sf::RenderWindow &window, const Player &player )
@@ -32,27 +46,8 @@ void drawPlayer ( sf::RenderWindow &window, const Player &player )
 void drawBullets ( sf::RenderWindow &window,
                    const Bullet bullets [ MAX_BULLETS ], int bulletCount )
 {
-    // Use a range-based for loop to iterate through bullets
-    for ( const auto &bullet : bullets )
+    for ( int i = 0; i < bulletCount; ++i )
     {
-        // Draw the bullet only if it is within the valid range
-        if ( isValidBullet ( bullet ) )
-        {
-            window.draw ( bullet.shape );
-        }
+        window.draw ( bullets [ i ].shape );
     }
-}
-
-void render ( sf::RenderWindow &window, const Player &player,
-              const Bullet bullets [ MAX_BULLETS ], int bulletCount )
-{
-    window.clear ();
-
-    // Draw player using the drawPlayer function
-    drawPlayer ( window, player );
-
-    // Draw bullets using the drawBullets function
-    drawBullets ( window, bullets, bulletCount );
-
-    window.display ();
 }
