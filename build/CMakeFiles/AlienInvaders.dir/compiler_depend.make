@@ -1552,7 +1552,10 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: /home/boi/Projects/C++/Uni
   /home/boi/Projects/C++/Uni/Final/lib/player.h \
   /home/boi/Projects/C++/Uni/Final/lib/bulletFunctions.h \
   /home/boi/Projects/C++/Uni/Final/lib/enemyFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h
+  /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc
 
 CMakeFiles/AlienInvaders.dir/src/main.cpp.o: /home/boi/Projects/C++/Uni/Final/src/main.cpp \
   /home/boi/Projects/C++/Uni/Final/lib/bullet.h \
@@ -2494,6 +2497,10 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: /home/boi/Projects/C++/U
 
 /home/boi/Projects/C++/Uni/Final/src/main.cpp:
 
+/nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream:
+
+/nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream:
+
 /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h:
 
 /home/boi/Projects/C++/Uni/Final/lib/player.h:
@@ -2509,6 +2516,8 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: /home/boi/Projects/C++/U
 /home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp:
 
 /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Text.hpp:
+
+/nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc:
 
 /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/Glsl.hpp:
 

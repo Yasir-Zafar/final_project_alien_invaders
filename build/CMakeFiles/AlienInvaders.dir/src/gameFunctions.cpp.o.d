@@ -312,4 +312,7 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/bulletFunctions.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/enemyFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/playerFunctions.h
+  /home/boi/Projects/C++/Uni/Final/src/../lib/playerFunctions.h \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc

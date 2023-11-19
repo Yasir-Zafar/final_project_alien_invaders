@@ -24,8 +24,9 @@ int main ()
     {
         processGame ( window, player, bullets, bulletCount, enemy, enemyCount,
                       clock );
-        renderGame ( window, player, bullets, bulletCount, enemy, enemyCount );
     }
+
+    cleanupGame ( window );
 
     return 0;
 }

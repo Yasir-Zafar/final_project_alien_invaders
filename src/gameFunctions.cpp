@@ -3,6 +3,7 @@
 #include "../lib/bulletFunctions.h"
 #include "../lib/enemyFunctions.h"
 #include "../lib/playerFunctions.h"
+#include <iostream>
 
 void processGame ( sf::RenderWindow &window, Player &player,
                    Bullet bullets [ MAX_BULLETS ], int &bulletCount,
@@ -11,7 +12,7 @@ void processGame ( sf::RenderWindow &window, Player &player,
 {
     processEvents ( window, player, bullets, bulletCount, clock );
     updateGame ( bullets, bulletCount, enemy, enemyCount,
-                 clock.restart ().asSeconds () );
+                 clock.restart ().asSeconds (), player, window );
     renderGame ( window, player, bullets, bulletCount, enemy, enemyCount );
 }
 
@@ -27,15 +28,16 @@ void processEvents ( sf::RenderWindow &window, Player &player,
     // Handle player input
     handlePlayerMovement ( player, clock );
 
-    // Shoot bullets
+    // Shoot bullets with left mouse click
     handleBulletShooting ( player, bullets, bulletCount );
 }
-
 void updateGame ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
-                  Enemy enemy [ MAX_ENEMY ], int &enemyCount, float deltaTime )
+                  Enemy enemy [ MAX_ENEMY ], int &enemyCount, float deltaTime,
+                  Player &player, sf::RenderWindow &window )
 {
     updateBullets ( bullets, bulletCount, deltaTime );
     updateEnemy ( enemy, enemyCount, deltaTime );
+    handlePlayerEnemyCollisions ( player, enemy, enemyCount, window );
 }
 
 void renderGame ( sf::RenderWindow &window, const Player &player,
@@ -69,5 +71,31 @@ void drawEnemy ( sf::RenderWindow &window, const Enemy enemy [ MAX_ENEMY ],
     for ( int i = 0; i < enemyCount; ++i )
     {
         window.draw ( enemy [ i ].shape );
+    }
+}
+
+void cleanupGame ( sf::RenderWindow &window ) { window.close (); }
+
+void handlePlayerEnemyCollisions ( Player &player, Enemy enemies [],
+                                   int enemyCount, sf::RenderWindow &window )
+{
+    for ( int i = 0; i < enemyCount; ++i )
+    {
+        if ( player.shape.getGlobalBounds ().intersects (
+                 enemies [ i ].shape.getGlobalBounds () ) )
+        {
+            // Deduct a life when the player collides with an enemy
+            player.lives--;
+
+            // Reset player position or perform other actions as needed
+
+            // Optional: End the game if lives reach zero
+            if ( player.lives <= 0 )
+            {
+                // game over logic here
+                std::cout << "Game Over!\n";
+                window.close ();
+            }
+        }
     }
 }

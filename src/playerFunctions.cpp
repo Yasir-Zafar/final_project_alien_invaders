@@ -15,7 +15,7 @@ void handleBulletShooting ( Player &player, Bullet bullets [],
                             int &bulletCount )
 {
     // Shoot bullets on space key press
-    if ( sf::Keyboard::isKeyPressed ( sf::Keyboard::Space ) &&
+    if ( sf::Mouse::isButtonPressed ( sf::Mouse::Left ) &&
          bulletCount < MAX_BULLETS )
     {
         bullets [ bulletCount ].initialize (

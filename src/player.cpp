@@ -5,6 +5,7 @@ void Player::initialize ()
     shape.setSize ( sf::Vector2f ( 40, 40 ) );
     shape.setFillColor ( sf::Color::Green );
     shape.setPosition ( 375, 500 );
+    lives = 3;
 }
 
 void Player::move ( float offsetX, float offsetY, float deltaTime )

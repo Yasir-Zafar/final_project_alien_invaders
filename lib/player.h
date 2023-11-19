@@ -6,6 +6,7 @@
 struct Player
 {
     sf::RectangleShape shape;
+    int lives;
 
     void initialize ();
     void move ( float offsetX, float offsetY, float deltaTime );
