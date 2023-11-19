@@ -16,3 +16,7 @@ void drawBullets ( sf::RenderWindow &window,
                    const Bullet bullets [ MAX_BULLETS ], int bulletCount );
 void drawEnemy ( sf::RenderWindow &window, const Enemy enemy [ MAX_ENEMY ],
                  int enemyCount );
+
+void drawBackground ( sf::RenderWindow &window,
+                      const sf::Texture &backgroundTexture, float width,
+                      float height );

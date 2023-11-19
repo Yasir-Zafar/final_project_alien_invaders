@@ -47,14 +47,14 @@ void handlePlayerEnemyCollisions ( Player &player, Enemy enemies [],
 {
     for ( int i = 0; i < enemyCount; ++i )
     {
-        if ( player.shape.getGlobalBounds ().intersects (
+        if ( player.sprite.getGlobalBounds ().intersects (
                  enemies [ i ].shape.getGlobalBounds () ) )
         {
             player.lives--;
 
             // Reset player position or perform other actions as needed
             // For example, reset the player's position
-            player.shape.setPosition ( 375, 500 );
+            player.sprite.setPosition ( 375, 500 );
 
             if ( player.lives <= 0 )
             {

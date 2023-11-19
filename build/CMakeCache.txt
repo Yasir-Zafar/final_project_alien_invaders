@@ -209,7 +209,7 @@ CMAKE_STRIP:FILEPATH=/nix/store/g63695j29xm63699c4zjfljfv24csw5b-llvm-16.0.6/bin
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML
+SFML_DIR:PATH=/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND

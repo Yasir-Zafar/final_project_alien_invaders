@@ -42,11 +42,11 @@ endif()
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 
 # Set the path to your SFML directory
-set(SFML_DIR SFML-2.5.1/lib/cmake/SFML/)
+set(SFML_DIR "SFML-2.5.1/lib/cmake/SFML/")
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 # Specify the SFML include directories
-target_include_directories(AlienInvaders PRIVATE ${SFML_INCLUDE_DIR})
+target_include_directories(AlienInvaders PRIVATE "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/")
 
 # Specify the SFML libraries to link
 target_link_libraries(AlienInvaders sfml-graphics sfml-window sfml-system)

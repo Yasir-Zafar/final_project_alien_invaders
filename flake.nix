@@ -10,7 +10,7 @@
     };
   };
 
-  outputs = { nixpkgs, utils, ... }:
+  outputs = { self, nixpkgs, utils, ... }:
     utils.lib.eachDefaultSystem (
       system:
       let
@@ -24,7 +24,6 @@
             cmake
 
             # debugger
-            gdb
 
             # fix headers not found
             clang-tools_16
@@ -40,11 +39,6 @@
 
             # libs
             sfml
-            freetype
-            xorg.libX11
-            xorg.libXrandr
-            xorg.libXcursor
-            udev
           ];
           name = "C";
         };

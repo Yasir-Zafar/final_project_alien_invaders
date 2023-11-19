@@ -19,8 +19,8 @@ void handleBulletShooting ( Player &player, Bullet bullets [],
          bulletCount < MAX_BULLETS )
     {
         bullets [ bulletCount ].initialize (
-            player.shape.getPosition () +
-            sf::Vector2f ( player.shape.getSize ().x / 2, 0 ) );
+            player.sprite.getPosition () +
+            sf::Vector2f ( player.sprite.getGlobalBounds ().width / 2, 0 ) );
         bulletCount++;
     }
 }

@@ -4,7 +4,7 @@
 # compile CXX with /nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include
 
 CXX_FLAGS = -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -Wconversion -Wunreachable-code -Wunused -Wshadow
 

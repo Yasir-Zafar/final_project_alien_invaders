@@ -26,11 +26,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/nix/store/5h0akwq4cwlc3yp92i84nfgcxpv5xv79-cmake-3.26.4/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
   "/nix/store/5h0akwq4cwlc3yp92i84nfgcxpv5xv79-cmake-3.26.4/share/cmake-3.26/Modules/Platform/Linux.cmake"
   "/nix/store/5h0akwq4cwlc3yp92i84nfgcxpv5xv79-cmake-3.26.4/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
-  "/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
-  "/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
-  "/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
-  "/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
-  "/nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
+  "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
+  "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+  "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
+  "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
+  "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
   )
 
 # The corresponding makefile is:

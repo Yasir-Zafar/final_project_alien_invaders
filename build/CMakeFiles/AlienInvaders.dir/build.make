@@ -220,9 +220,9 @@ AlienInvaders: CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/build.make
-AlienInvaders: /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/libsfml-graphics.so.2.5.1
-AlienInvaders: /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/libsfml-window.so.2.5.1
-AlienInvaders: /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/lib/libsfml-system.so.2.5.1
+AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-graphics.so.2.5.1
+AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-window.so.2.5.1
+AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-system.so.2.5.1
 AlienInvaders: CMakeFiles/AlienInvaders.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable AlienInvaders"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlienInvaders.dir/link.txt --verbose=$(VERBOSE)

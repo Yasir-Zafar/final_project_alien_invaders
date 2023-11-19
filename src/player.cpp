@@ -1,10 +1,15 @@
 #include "../lib/player.h"
+#include <iostream>
 
 void Player::initialize ()
 {
-    shape.setSize ( sf::Vector2f ( 40, 40 ) );
-    shape.setFillColor ( sf::Color::Green );
-    shape.setPosition ( 375, 500 );
+    if ( !texture.loadFromFile ( "assets/images/alien.png" ) )
+        std::cout << "Failed to load player image!" << std::endl;
+
+    sprite.setTexture ( texture );
+    sprite.setPosition ( 375, 500 );
+    sprite.scale ( 0.1f, 0.05f );
+    sprite.setColor ( sf::Color ( 0xFFFFFFFF ) );
     lives = 3;
 }
 
@@ -12,5 +17,5 @@ void Player::move ( float offsetX, float offsetY, float deltaTime )
 {
     // Adjust the movement based on delta time
     float speed = 400.0f;
-    shape.move ( offsetX * speed * deltaTime, offsetY * speed * deltaTime );
+    sprite.move ( offsetX * speed * deltaTime, offsetY * speed * deltaTime );
 }

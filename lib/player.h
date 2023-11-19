@@ -5,7 +5,8 @@
 // Player structure
 struct Player
 {
-    sf::RectangleShape shape;
+    sf::Sprite sprite;
+    sf::Texture texture;
     int lives;
 
     void initialize ();
