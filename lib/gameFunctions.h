@@ -3,10 +3,7 @@
 #include "../lib/bullet.h"
 #include "../lib/enemy.h"
 #include "../lib/player.h"
-#include <SFML/Graphics.hpp>
-
-const int MAX_BULLETS = 10;
-const int MAX_ENEMY = 5;
+#include "../lib/renderGame.h"
 
 void processGame ( sf::RenderWindow &window, Player &player,
                    Bullet bullets [ MAX_BULLETS ], int &bulletCount,
@@ -18,14 +15,7 @@ void processEvents ( sf::RenderWindow &window, Player &player,
 void updateGame ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
                   Enemy enemy [ MAX_ENEMY ], int &enemyCount, float deltaTime,
                   Player &player, sf::RenderWindow &window );
-void renderGame ( sf::RenderWindow &window, const Player &player,
-                  const Bullet bullets [ MAX_BULLETS ], int bulletCount,
-                  const Enemy enemy [ MAX_ENEMY ], int enemyCount );
-void drawPlayer ( sf::RenderWindow &window, const Player &player );
-void drawBullets ( sf::RenderWindow &window,
-                   const Bullet bullets [ MAX_BULLETS ], int bulletCount );
-void drawEnemy ( sf::RenderWindow &window, const Enemy enemy [ MAX_ENEMY ],
-                 int enemyCount );
 void cleanupGame ( sf::RenderWindow &window );
 void handlePlayerEnemyCollisions ( Player &player, Enemy enemies [],
-                                   int enemyCount, sf::RenderWindow &window );
+                                   int &enemyCount, sf::RenderWindow &window );
+void resetEnemy ( Enemy &enemy );

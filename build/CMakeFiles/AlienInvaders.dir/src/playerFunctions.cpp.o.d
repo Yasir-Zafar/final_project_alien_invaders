@@ -310,4 +310,5 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: \
   /nix/store/cinsvr42pxxc1ckxm1dkyqy5a8ayjkvy-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/gameFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/renderGame.h

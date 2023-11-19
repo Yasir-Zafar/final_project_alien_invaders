@@ -16,6 +16,7 @@ add_executable(AlienInvaders
     src/playerFunctions.cpp
     src/bulletFunctions.cpp
     src/enemyFunctions.cpp
+    src/renderGame.cpp
 )
 
 # Set flags

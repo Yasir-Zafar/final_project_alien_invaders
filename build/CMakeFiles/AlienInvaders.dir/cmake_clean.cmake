@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AlienInvaders.dir/src/player.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

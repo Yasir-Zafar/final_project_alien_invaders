@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/boi/Projects/C++/Uni/Final/src/main.cpp" "CMakeFiles/AlienInvaders.dir/src/main.cpp.o" "gcc" "CMakeFiles/AlienInvaders.dir/src/main.cpp.o.d"
   "/home/boi/Projects/C++/Uni/Final/src/player.cpp" "CMakeFiles/AlienInvaders.dir/src/player.cpp.o" "gcc" "CMakeFiles/AlienInvaders.dir/src/player.cpp.o.d"
   "/home/boi/Projects/C++/Uni/Final/src/playerFunctions.cpp" "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o" "gcc" "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o.d"
+  "/home/boi/Projects/C++/Uni/Final/src/renderGame.cpp" "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o" "gcc" "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

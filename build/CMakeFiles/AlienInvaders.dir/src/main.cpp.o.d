@@ -312,4 +312,5 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.o: \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/bullet.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/renderGame.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/player.h

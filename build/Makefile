@@ -366,6 +366,30 @@ src/playerFunctions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.s
 .PHONY : src/playerFunctions.cpp.s
 
+src/renderGame.o: src/renderGame.cpp.o
+.PHONY : src/renderGame.o
+
+# target to build an object file
+src/renderGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o
+.PHONY : src/renderGame.cpp.o
+
+src/renderGame.i: src/renderGame.cpp.i
+.PHONY : src/renderGame.i
+
+# target to preprocess a source file
+src/renderGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.i
+.PHONY : src/renderGame.cpp.i
+
+src/renderGame.s: src/renderGame.cpp.s
+.PHONY : src/renderGame.s
+
+# target to generate assembly for a file
+src/renderGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.s
+.PHONY : src/renderGame.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -403,6 +427,9 @@ help:
 	@echo "... src/playerFunctions.o"
 	@echo "... src/playerFunctions.i"
 	@echo "... src/playerFunctions.s"
+	@echo "... src/renderGame.o"
+	@echo "... src/renderGame.i"
+	@echo "... src/renderGame.s"
 .PHONY : help
 
 

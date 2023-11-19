@@ -40,62 +40,36 @@ void updateGame ( Bullet bullets [ MAX_BULLETS ], int &bulletCount,
     handlePlayerEnemyCollisions ( player, enemy, enemyCount, window );
 }
 
-void renderGame ( sf::RenderWindow &window, const Player &player,
-                  const Bullet bullets [ MAX_BULLETS ], int bulletCount,
-                  const Enemy enemy [ MAX_ENEMY ], int enemyCount )
-{
-    window.clear ();
-    drawPlayer ( window, player );
-    drawBullets ( window, bullets, bulletCount );
-    drawEnemy ( window, enemy, enemyCount );
-    window.display ();
-}
-
-void drawPlayer ( sf::RenderWindow &window, const Player &player )
-{
-    window.draw ( player.shape );
-}
-
-void drawBullets ( sf::RenderWindow &window,
-                   const Bullet bullets [ MAX_BULLETS ], int bulletCount )
-{
-    for ( int i = 0; i < bulletCount; ++i )
-    {
-        window.draw ( bullets [ i ].shape );
-    }
-}
-
-void drawEnemy ( sf::RenderWindow &window, const Enemy enemy [ MAX_ENEMY ],
-                 int enemyCount )
-{
-    for ( int i = 0; i < enemyCount; ++i )
-    {
-        window.draw ( enemy [ i ].shape );
-    }
-}
-
 void cleanupGame ( sf::RenderWindow &window ) { window.close (); }
 
 void handlePlayerEnemyCollisions ( Player &player, Enemy enemies [],
-                                   int enemyCount, sf::RenderWindow &window )
+                                   int &enemyCount, sf::RenderWindow &window )
 {
     for ( int i = 0; i < enemyCount; ++i )
     {
         if ( player.shape.getGlobalBounds ().intersects (
                  enemies [ i ].shape.getGlobalBounds () ) )
         {
-            // Deduct a life when the player collides with an enemy
             player.lives--;
 
             // Reset player position or perform other actions as needed
+            // For example, reset the player's position
+            player.shape.setPosition ( 375, 500 );
 
-            // Optional: End the game if lives reach zero
             if ( player.lives <= 0 )
             {
-                // game over logic here
                 std::cout << "Game Over!\n";
                 window.close ();
             }
+
+            // Reset the enemy when the player loses a life
+            resetEnemy ( enemies [ i ] );
         }
     }
+}
+
+void resetEnemy ( Enemy &enemy )
+{
+    // Reset the enemy position or perform other actions as needed
+    enemy.shape.setPosition ( 400, 200 );
 }
