@@ -1,11 +1,14 @@
-#include "../lib/enemy.h"
+#include "../lib/enemies.h"
 
-void Enemy::initialize ( sf::Vector2f position )
+void Enemies::initialize ( sf::Vector2f position )
 {
-    shape.setSize ( sf::Vector2f ( 30, 30 ) );
+    shape.setSize ( sf::Vector2f ( 20, 20 ) );
     shape.setFillColor ( sf::Color::Magenta );
     shape.setPosition ( position );
-    velocity = sf::Vector2f ( 0, 150 ); // Adjust the speed as needed
+    isActive = true;
 }
 
-void Enemy::move ( float deltaTime ) { shape.move ( velocity * deltaTime ); }
+void Enemies::move ( float offsetX, float offsetY )
+{
+    shape.move ( offsetX, offsetY );
+}

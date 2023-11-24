@@ -308,11 +308,11 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemies.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/renderGame.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/bulletFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/enemyFunctions.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/enemiesFunctions.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/playerFunctions.h \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \

@@ -22,6 +22,7 @@
             # builder
             gnumake
             cmake
+            ccls
 
             # debugger
 

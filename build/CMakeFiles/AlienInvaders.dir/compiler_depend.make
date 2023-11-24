@@ -618,10 +618,13 @@ CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o: /home/boi/Projects/C++/U
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Glsl.inl \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
-  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
+  /home/boi/Projects/C++/Uni/Final/lib/player.h \
+  /home/boi/Projects/C++/Uni/Final/lib/renderGame.h
 
 CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemy.cpp \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Window.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/System.hpp \
@@ -930,8 +933,8 @@ CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: /home/boi/Projects/C++/Uni/Final/s
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
 
 CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp \
-  /home/boi/Projects/C++/Uni/Final/lib/enemyFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemiesFunctions.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Window.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/System.hpp \
@@ -1548,11 +1551,11 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: /home/boi/Projects/C++/Uni
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /home/boi/Projects/C++/Uni/Final/lib/player.h \
   /home/boi/Projects/C++/Uni/Final/lib/renderGame.h \
   /home/boi/Projects/C++/Uni/Final/lib/bulletFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/lib/enemyFunctions.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemiesFunctions.h \
   /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
@@ -1866,10 +1869,10 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.o: /home/boi/Projects/C++/Uni/Final/sr
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /home/boi/Projects/C++/Uni/Final/lib/gameFunctions.h \
   /home/boi/Projects/C++/Uni/Final/lib/bullet.h \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /home/boi/Projects/C++/Uni/Final/lib/player.h \
   /home/boi/Projects/C++/Uni/Final/lib/renderGame.h \
   /home/boi/Projects/C++/Uni/Final/lib/player.h
@@ -2496,9 +2499,8 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: /home/boi/Projects/C++/U
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
   /home/boi/Projects/C++/Uni/Final/lib/player.h \
-  /home/boi/Projects/C++/Uni/Final/lib/gameFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
-  /home/boi/Projects/C++/Uni/Final/lib/renderGame.h
+  /home/boi/Projects/C++/Uni/Final/lib/renderGame.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h
 
 CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Final/src/renderGame.cpp \
   /home/boi/Projects/C++/Uni/Final/lib/renderGame.h \
@@ -2809,7 +2811,7 @@ CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Fi
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
-  /home/boi/Projects/C++/Uni/Final/lib/enemy.h \
+  /home/boi/Projects/C++/Uni/Final/lib/enemies.h \
   /home/boi/Projects/C++/Uni/Final/lib/player.h \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
   /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
@@ -2828,17 +2830,17 @@ CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Fi
 
 /home/boi/Projects/C++/Uni/Final/lib/playerFunctions.h:
 
-/home/boi/Projects/C++/Uni/Final/lib/renderGame.h:
-
-/home/boi/Projects/C++/Uni/Final/lib/player.h:
-
 /home/boi/Projects/C++/Uni/Final/lib/gameFunctions.h:
+
+/home/boi/Projects/C++/Uni/Final/lib/enemiesFunctions.h:
 
 /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp:
 
-/home/boi/Projects/C++/Uni/Final/lib/enemy.h:
-
 /home/boi/Projects/C++/Uni/Final/src/enemy.cpp:
+
+/home/boi/Projects/C++/Uni/Final/lib/renderGame.h:
+
+/home/boi/Projects/C++/Uni/Final/lib/player.h:
 
 /home/boi/Projects/C++/Uni/Final/lib/bulletFunctions.h:
 
@@ -2968,6 +2970,8 @@ CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Fi
 
 /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/predefined_ops.h:
 
+/home/boi/Projects/C++/Uni/Final/lib/enemies.h:
+
 /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/System/Utf.hpp:
 
 /nix/store/x8lqlydsxbrwvf6p7v18gws8kn1xl37f-glibc-2.38-23-dev/include/ctype.h:
@@ -3045,8 +3049,6 @@ CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Fi
 /nix/store/x8lqlydsxbrwvf6p7v18gws8kn1xl37f-glibc-2.38-23-dev/include/bits/struct_mutex.h:
 
 /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/postypes.h:
-
-/home/boi/Projects/C++/Uni/Final/lib/enemyFunctions.h:
 
 /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/stringfwd.h:
 

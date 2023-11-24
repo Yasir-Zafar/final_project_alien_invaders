@@ -1,5 +1,4 @@
 #include "../lib/playerFunctions.h"
-#include "../lib/gameFunctions.h"
 
 void handlePlayerMovement ( Player &player, sf::Clock &clock )
 {

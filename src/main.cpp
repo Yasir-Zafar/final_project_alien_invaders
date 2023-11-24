@@ -1,5 +1,5 @@
 #include "../lib/bullet.h"
-#include "../lib/enemy.h"
+#include "../lib/enemies.h"
 #include "../lib/gameFunctions.h"
 #include "../lib/player.h"
 #include <SFML/Graphics.hpp>
@@ -12,20 +12,25 @@ int main ()
     player.initialize ();
 
     Bullet bullets [ MAX_BULLETS ];
-    int bulletCount = 0;
+    int bulletCount = 1;
 
-    Enemy enemy [ MAX_ENEMY ];
-    int enemyCount = 1;
-    enemy [ 0 ].initialize ( sf::Vector2f ( 400, 200 ) );
+    Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ];
+    int enemiesCount = 49;
 
     sf::Clock clock; // Declare the clock instance
 
+    spawnEnemiesFormation ( enemies, enemiesCount );
+
     while ( window.isOpen () )
     {
-        processGame ( window, player, bullets, bulletCount, enemy, enemyCount,
-                      clock );
+        processGame ( window, player, bullets, bulletCount, enemies,
+                      enemiesCount, clock );
+        if ( player.gameOver )
+        {
+            sf::sleep ( sf::seconds ( 3 ) );
+            window.close ();
+        }
     }
-
     cleanupGame ( window );
 
     return 0;

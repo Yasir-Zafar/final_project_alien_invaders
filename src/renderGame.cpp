@@ -2,20 +2,32 @@
 #include <iostream>
 
 void renderGame ( sf::RenderWindow &window, const Player &player,
-                  const Bullet bullets [ MAX_BULLETS ], int bulletCount,
-                  const Enemy enemy [ MAX_ENEMY ], int enemyCount )
+                  Bullet bullets [ MAX_BULLETS ], int bulletCount,
+                  Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ] )
 {
     window.clear ();
-    sf::Texture backgroundTexture;
-    if ( !backgroundTexture.loadFromFile ( "assets/images/black.png" ) )
-        std::cout << "Failed to load background image!" << std::endl;
 
-    sf::Vector2u imageSize = window.getSize ();
-    drawBackground ( window, backgroundTexture, (float)imageSize.x,
-                     (float)imageSize.y );
-    drawPlayer ( window, player );
-    drawBullets ( window, bullets, bulletCount );
-    drawEnemy ( window, enemy, enemyCount );
+    sf::Font font;
+    if ( !font.loadFromFile ( "assets/font/arial.ttf" ) )
+        std::cout << "Failed to load font!" << std::endl;
+
+    sf::Text scoreText;
+    scoreText.setFont ( font );
+    scoreText.setCharacterSize ( 20 );
+    scoreText.setFillColor ( sf::Color::White );
+
+    if ( !player.gameOver )
+    {
+        drawPlayer ( window, player );
+        drawBullets ( window, bullets, bulletCount );
+        drawEnemies ( window, enemies );
+    }
+    else
+    {
+        renderGameOver ( window );
+    }
+
+    renderScore ( window, player, scoreText );
     window.display ();
 }
 
@@ -29,28 +41,50 @@ void drawBullets ( sf::RenderWindow &window,
 {
     for ( int i = 0; i < bulletCount; ++i )
     {
-        window.draw ( bullets [ i ].shape );
+        if ( bullets [ i ].isActive )
+        { // Check if the bullet is active before drawing
+            window.draw ( bullets [ i ].shape );
+        }
     }
 }
 
-void drawEnemy ( sf::RenderWindow &window, const Enemy enemy [ MAX_ENEMY ],
-                 int enemyCount )
+void drawEnemies (
+    sf::RenderWindow &window,
+    const Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ] )
 {
-    for ( int i = 0; i < enemyCount; ++i )
+    for ( int i = 0; i < MAX_ENEMIES_ROWS; ++i )
     {
-        window.draw ( enemy [ i ].shape );
+        for ( int j = 0; j < MAX_ENEMIES_COLS; ++j )
+        {
+            if ( enemies [ i ][ j ].isActive )
+            {
+                window.draw ( enemies [ i ][ j ].shape );
+            }
+        }
     }
 }
 
-void drawBackground ( sf::RenderWindow &window,
-                      const sf::Texture &backgroundTexture, float width,
-                      float height )
+void renderGameOver ( sf::RenderWindow &window )
 {
-    sf::Sprite backgroundSprite;
-    backgroundSprite.setTexture ( backgroundTexture );
-    backgroundSprite.setColor ( sf::Color ( 255, 255, 255, 128 ) );
-    backgroundSprite.setScale ( width / (float)backgroundTexture.getSize ().x,
-                                height /
-                                    (float)backgroundTexture.getSize ().y );
-    window.draw ( backgroundSprite );
+    sf::Font font;
+    if ( !font.loadFromFile ( "assets/font/arial.ttf" ) )
+        std::cout << "Failed to load font!" << std::endl;
+
+    sf::Text gameOverText;
+    gameOverText.setFont ( font );
+    gameOverText.setString ( "Game Over!" );
+    gameOverText.setCharacterSize ( 20 );
+    gameOverText.setFillColor ( sf::Color::Red );
+    gameOverText.setPosition ( 340, 300 );
+
+    window.draw ( gameOverText );
+}
+
+void renderScore ( sf::RenderWindow &window, const Player &player,
+                   sf::Text text )
+{
+    text.setString ( "Score: " + std::to_string ( player.score ) );
+    text.setPosition ( 10, 10 );
+
+    window.draw ( text );
 }
