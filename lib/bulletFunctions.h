@@ -1,9 +1,9 @@
 #pragma once
 
-#include "../lib/bullet.h"
-#include "../lib/enemies.h"
-#include "../lib/player.h"
-#include "../lib/renderGame.h"
+#include "bullet.h"
+#include "constants.h"
+#include "enemies.h"
+#include "player.h"
 #include <SFML/Graphics.hpp>
 
 void updateBullets ( Bullet bullets [], int &bulletCount, float deltaTime );

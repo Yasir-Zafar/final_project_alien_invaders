@@ -21,7 +21,8 @@ void handleBulletEnemiesCollisions (
                 if ( bullets [ i ].isActive && enemies [ row ][ col ].isActive )
                 {
                     if ( bullets [ i ].shape.getGlobalBounds ().intersects (
-                             enemies [ row ][ col ].shape.getGlobalBounds () ) )
+                             enemies [ row ][ col ]
+                                 .sprite.getGlobalBounds () ) )
                     {
                         if ( collisionClock.getElapsedTime () >
                              collisionCooldown )

@@ -306,4 +306,7 @@ CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Glsl.inl \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
-  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc

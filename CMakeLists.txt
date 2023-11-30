@@ -9,14 +9,22 @@ source_group("Source Files" FILES ${SOURCE_FILES})
 
 add_executable(AlienInvaders
     src/main.cpp
+	src/runGame.cpp
     src/player.cpp
     src/bullet.cpp
     src/enemy.cpp
+    src/enemyFunctions.cpp
+    src/enemyBullet.cpp
+    src/enemyBulletFunctions.cpp
     src/gameFunctions.cpp
     src/playerFunctions.cpp
     src/bulletFunctions.cpp
-    src/enemyFunctions.cpp
     src/renderGame.cpp
+
+	src/Raza/src/game.cpp
+	src/Raza/src/playerBlitz.cpp
+	src/Raza/src/enemyBlitz.cpp
+	src/Raza/src/bulletBlitz.cpp
 )
 
 # Set flags
@@ -43,13 +51,13 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 
 # Set the path to your SFML directory
 set(SFML_DIR "SFML-2.5.1/lib/cmake/SFML/")
-find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+find_package(SFML 2.5 COMPONENTS graphics window system audio REQUIRED)
 
 # Specify the SFML include directories
 target_include_directories(AlienInvaders PRIVATE "/nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/")
 
 # Specify the SFML libraries to link
-target_link_libraries(AlienInvaders sfml-graphics sfml-window sfml-system)
+target_link_libraries(AlienInvaders sfml-graphics sfml-window sfml-system sfml-audio)
 
 install(TARGETS AlienInvaders)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

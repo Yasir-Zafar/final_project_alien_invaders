@@ -4,7 +4,8 @@
 
 struct Enemies
 {
-    sf::RectangleShape shape;
+    sf::Sprite sprite; // Replace sf::RectangleShape with sf::Sprite
+    sf::Texture texture;
     sf::Vector2f velocity;
     bool isActive; // New member variable
 

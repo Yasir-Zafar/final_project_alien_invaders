@@ -1,5 +1,7 @@
 CMakeFiles/AlienInvaders.dir/src/main.cpp.o: \
   /home/boi/Projects/C++/Uni/Final/src/main.cpp \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/runGame.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/bulletFunctions.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/bullet.h \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Window.hpp \
@@ -307,10 +309,36 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.o: \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Sprite.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/Text.hpp \
   /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/constants.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/enemies.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/player.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/enemiesFunctions.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/enemyBullet.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/enemyBulletFunctions.h \
   /home/boi/Projects/C++/Uni/Final/src/../lib/gameFunctions.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/bullet.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/enemies.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/player.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/../lib/renderGame.h \
-  /home/boi/Projects/C++/Uni/Final/src/../lib/player.h
+  /home/boi/Projects/C++/Uni/Final/src/../lib/playerFunctions.h \
+  /home/boi/Projects/C++/Uni/Final/src/../lib/renderGame.h \
+  /home/boi/Projects/C++/Uni/Final/src/Raza/lib/game.h \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/InputSoundFile.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/Export.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/Listener.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/Music.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundStream.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundSource.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/AlResource.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/OutputSoundFile.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/Sound.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundBuffer.hpp \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/set \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/stl_set.h \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/stl_multiset.h \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundRecorder.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundFileFactory.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundFileFactory.inl \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundFileReader.hpp \
+  /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/include/SFML/Audio/SoundFileWriter.hpp \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/iostream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/istream \
+  /nix/store/0b9bsznqs6pdg42dxcwvrlmarjn2p6a1-gcc-12.3.0/include/c++/12.3.0/bits/istream.tcc

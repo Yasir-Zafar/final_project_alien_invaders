@@ -1,37 +1,35 @@
-#include "../lib/bullet.h"
-#include "../lib/enemies.h"
-#include "../lib/gameFunctions.h"
-#include "../lib/player.h"
-#include <SFML/Graphics.hpp>
+#include "../lib/runGame.h"
+#include "Raza/lib/game.h"
 
 int main ()
 {
-    sf::RenderWindow window ( sf::VideoMode ( 800, 600 ), "SFML Window" );
-
-    Player player;
-    player.initialize ();
-
-    Bullet bullets [ MAX_BULLETS ];
-    int bulletCount = 1;
-
-    Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ];
-    int enemiesCount = 49;
-
-    sf::Clock clock; // Declare the clock instance
-
-    spawnEnemiesFormation ( enemies, enemiesCount );
-
-    while ( window.isOpen () )
+    int mode = 1;
+    if ( mode == 0 )
     {
-        processGame ( window, player, bullets, bulletCount, enemies,
-                      enemiesCount, clock );
-        if ( player.gameOver )
-        {
-            sf::sleep ( sf::seconds ( 3 ) );
-            window.close ();
-        }
-    }
-    cleanupGame ( window );
+        sf::RenderWindow window ( sf::VideoMode ( 800, 600 ), "SFML Window" );
 
+        int currentLevel = 1;
+
+        Player player;
+        player.initialize ();
+
+        Bullet bullets [ MAX_BULLETS ];
+        int bulletCount = 1;
+
+        Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ];
+        int enemiesCount = 49;
+
+        EnemyBullet enemyBullets [ MAX_ENEMY_BULLETS ];
+        int enemyBulletCount = 0;
+
+        sf::Clock clock; // Declare the clock instance
+
+        runGame ( window, currentLevel, player, bullets, bulletCount, enemies,
+                  enemiesCount, clock, enemyBullets, enemyBulletCount );
+    }
+    else if ( mode == 1 )
+    {
+        runBlitz ();
+    }
     return 0;
 }

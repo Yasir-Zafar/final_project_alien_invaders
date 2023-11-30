@@ -3,7 +3,9 @@
 
 void renderGame ( sf::RenderWindow &window, const Player &player,
                   Bullet bullets [ MAX_BULLETS ], int bulletCount,
-                  Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ] )
+                  Enemies enemies [ MAX_ENEMIES_ROWS ][ MAX_ENEMIES_COLS ],
+                  EnemyBullet enemyBullets [ MAX_ENEMY_BULLETS ],
+                  int enemyBulletCount )
 {
     window.clear ();
 
@@ -21,6 +23,8 @@ void renderGame ( sf::RenderWindow &window, const Player &player,
         drawPlayer ( window, player );
         drawBullets ( window, bullets, bulletCount );
         drawEnemies ( window, enemies );
+        drawEnemyBullets ( window, enemyBullets,
+                           enemyBulletCount ); // Draw enemy bullets
     }
     else
     {
@@ -56,10 +60,24 @@ void drawEnemies (
     {
         for ( int j = 0; j < MAX_ENEMIES_COLS; ++j )
         {
+            // Draw the sprite if the enemy is active
             if ( enemies [ i ][ j ].isActive )
             {
-                window.draw ( enemies [ i ][ j ].shape );
+                window.draw ( enemies [ i ][ j ].sprite );
             }
+        }
+    }
+}
+
+void drawEnemyBullets ( sf::RenderWindow &window,
+                        const EnemyBullet enemyBullets [ MAX_ENEMY_BULLETS ],
+                        int enemyBulletCount )
+{
+    for ( int i = 0; i < enemyBulletCount; ++i )
+    {
+        if ( enemyBullets [ i ].isActive )
+        { // Check if the enemy bullet is active before drawing
+            window.draw ( enemyBullets [ i ].shape );
         }
     }
 }
@@ -83,8 +101,11 @@ void renderGameOver ( sf::RenderWindow &window )
 void renderScore ( sf::RenderWindow &window, const Player &player,
                    sf::Text text )
 {
-    text.setString ( "Score: " + std::to_string ( player.score ) );
-    text.setPosition ( 10, 10 );
+    if ( !player.gameOver )
+    {
+        text.setString ( "Score: " + std::to_string ( player.score ) );
+        text.setPosition ( 10, 10 );
 
-    window.draw ( text );
+        window.draw ( text );
+    }
 }

@@ -8,7 +8,7 @@ void Player::initialize ()
 
     sprite.setTexture ( texture );
     sprite.setPosition ( 370, 500 );
-    sprite.scale ( 0.03f, 0.03f );
+    sprite.scale ( 0.025f, 0.03f );
     sprite.setColor ( sf::Color ( 0xFFFFFFFF ) );
     lives = 3;
     gameOver = false;

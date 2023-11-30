@@ -174,6 +174,102 @@ AlienInvaders/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/build
 .PHONY : AlienInvaders/fast
 
+src/Raza/src/bulletBlitz.o: src/Raza/src/bulletBlitz.cpp.o
+.PHONY : src/Raza/src/bulletBlitz.o
+
+# target to build an object file
+src/Raza/src/bulletBlitz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o
+.PHONY : src/Raza/src/bulletBlitz.cpp.o
+
+src/Raza/src/bulletBlitz.i: src/Raza/src/bulletBlitz.cpp.i
+.PHONY : src/Raza/src/bulletBlitz.i
+
+# target to preprocess a source file
+src/Raza/src/bulletBlitz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.i
+.PHONY : src/Raza/src/bulletBlitz.cpp.i
+
+src/Raza/src/bulletBlitz.s: src/Raza/src/bulletBlitz.cpp.s
+.PHONY : src/Raza/src/bulletBlitz.s
+
+# target to generate assembly for a file
+src/Raza/src/bulletBlitz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.s
+.PHONY : src/Raza/src/bulletBlitz.cpp.s
+
+src/Raza/src/enemyBlitz.o: src/Raza/src/enemyBlitz.cpp.o
+.PHONY : src/Raza/src/enemyBlitz.o
+
+# target to build an object file
+src/Raza/src/enemyBlitz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o
+.PHONY : src/Raza/src/enemyBlitz.cpp.o
+
+src/Raza/src/enemyBlitz.i: src/Raza/src/enemyBlitz.cpp.i
+.PHONY : src/Raza/src/enemyBlitz.i
+
+# target to preprocess a source file
+src/Raza/src/enemyBlitz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.i
+.PHONY : src/Raza/src/enemyBlitz.cpp.i
+
+src/Raza/src/enemyBlitz.s: src/Raza/src/enemyBlitz.cpp.s
+.PHONY : src/Raza/src/enemyBlitz.s
+
+# target to generate assembly for a file
+src/Raza/src/enemyBlitz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.s
+.PHONY : src/Raza/src/enemyBlitz.cpp.s
+
+src/Raza/src/game.o: src/Raza/src/game.cpp.o
+.PHONY : src/Raza/src/game.o
+
+# target to build an object file
+src/Raza/src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o
+.PHONY : src/Raza/src/game.cpp.o
+
+src/Raza/src/game.i: src/Raza/src/game.cpp.i
+.PHONY : src/Raza/src/game.i
+
+# target to preprocess a source file
+src/Raza/src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.i
+.PHONY : src/Raza/src/game.cpp.i
+
+src/Raza/src/game.s: src/Raza/src/game.cpp.s
+.PHONY : src/Raza/src/game.s
+
+# target to generate assembly for a file
+src/Raza/src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.s
+.PHONY : src/Raza/src/game.cpp.s
+
+src/Raza/src/playerBlitz.o: src/Raza/src/playerBlitz.cpp.o
+.PHONY : src/Raza/src/playerBlitz.o
+
+# target to build an object file
+src/Raza/src/playerBlitz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o
+.PHONY : src/Raza/src/playerBlitz.cpp.o
+
+src/Raza/src/playerBlitz.i: src/Raza/src/playerBlitz.cpp.i
+.PHONY : src/Raza/src/playerBlitz.i
+
+# target to preprocess a source file
+src/Raza/src/playerBlitz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.i
+.PHONY : src/Raza/src/playerBlitz.cpp.i
+
+src/Raza/src/playerBlitz.s: src/Raza/src/playerBlitz.cpp.s
+.PHONY : src/Raza/src/playerBlitz.s
+
+# target to generate assembly for a file
+src/Raza/src/playerBlitz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.s
+.PHONY : src/Raza/src/playerBlitz.cpp.s
+
 src/bullet.o: src/bullet.cpp.o
 .PHONY : src/bullet.o
 
@@ -245,6 +341,54 @@ src/enemy.s: src/enemy.cpp.s
 src/enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemy.cpp.s
 .PHONY : src/enemy.cpp.s
+
+src/enemyBullet.o: src/enemyBullet.cpp.o
+.PHONY : src/enemyBullet.o
+
+# target to build an object file
+src/enemyBullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o
+.PHONY : src/enemyBullet.cpp.o
+
+src/enemyBullet.i: src/enemyBullet.cpp.i
+.PHONY : src/enemyBullet.i
+
+# target to preprocess a source file
+src/enemyBullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.i
+.PHONY : src/enemyBullet.cpp.i
+
+src/enemyBullet.s: src/enemyBullet.cpp.s
+.PHONY : src/enemyBullet.s
+
+# target to generate assembly for a file
+src/enemyBullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.s
+.PHONY : src/enemyBullet.cpp.s
+
+src/enemyBulletFunctions.o: src/enemyBulletFunctions.cpp.o
+.PHONY : src/enemyBulletFunctions.o
+
+# target to build an object file
+src/enemyBulletFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o
+.PHONY : src/enemyBulletFunctions.cpp.o
+
+src/enemyBulletFunctions.i: src/enemyBulletFunctions.cpp.i
+.PHONY : src/enemyBulletFunctions.i
+
+# target to preprocess a source file
+src/enemyBulletFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.i
+.PHONY : src/enemyBulletFunctions.cpp.i
+
+src/enemyBulletFunctions.s: src/enemyBulletFunctions.cpp.s
+.PHONY : src/enemyBulletFunctions.s
+
+# target to generate assembly for a file
+src/enemyBulletFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.s
+.PHONY : src/enemyBulletFunctions.cpp.s
 
 src/enemyFunctions.o: src/enemyFunctions.cpp.o
 .PHONY : src/enemyFunctions.o
@@ -390,6 +534,30 @@ src/renderGame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.s
 .PHONY : src/renderGame.cpp.s
 
+src/runGame.o: src/runGame.cpp.o
+.PHONY : src/runGame.o
+
+# target to build an object file
+src/runGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o
+.PHONY : src/runGame.cpp.o
+
+src/runGame.i: src/runGame.cpp.i
+.PHONY : src/runGame.i
+
+# target to preprocess a source file
+src/runGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/runGame.cpp.i
+.PHONY : src/runGame.cpp.i
+
+src/runGame.s: src/runGame.cpp.s
+.PHONY : src/runGame.s
+
+# target to generate assembly for a file
+src/runGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlienInvaders.dir/build.make CMakeFiles/AlienInvaders.dir/src/runGame.cpp.s
+.PHONY : src/runGame.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -403,6 +571,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... AlienInvaders"
+	@echo "... src/Raza/src/bulletBlitz.o"
+	@echo "... src/Raza/src/bulletBlitz.i"
+	@echo "... src/Raza/src/bulletBlitz.s"
+	@echo "... src/Raza/src/enemyBlitz.o"
+	@echo "... src/Raza/src/enemyBlitz.i"
+	@echo "... src/Raza/src/enemyBlitz.s"
+	@echo "... src/Raza/src/game.o"
+	@echo "... src/Raza/src/game.i"
+	@echo "... src/Raza/src/game.s"
+	@echo "... src/Raza/src/playerBlitz.o"
+	@echo "... src/Raza/src/playerBlitz.i"
+	@echo "... src/Raza/src/playerBlitz.s"
 	@echo "... src/bullet.o"
 	@echo "... src/bullet.i"
 	@echo "... src/bullet.s"
@@ -412,6 +592,12 @@ help:
 	@echo "... src/enemy.o"
 	@echo "... src/enemy.i"
 	@echo "... src/enemy.s"
+	@echo "... src/enemyBullet.o"
+	@echo "... src/enemyBullet.i"
+	@echo "... src/enemyBullet.s"
+	@echo "... src/enemyBulletFunctions.o"
+	@echo "... src/enemyBulletFunctions.i"
+	@echo "... src/enemyBulletFunctions.s"
 	@echo "... src/enemyFunctions.o"
 	@echo "... src/enemyFunctions.i"
 	@echo "... src/enemyFunctions.s"
@@ -430,6 +616,9 @@ help:
 	@echo "... src/renderGame.o"
 	@echo "... src/renderGame.i"
 	@echo "... src/renderGame.s"
+	@echo "... src/runGame.o"
+	@echo "... src/runGame.i"
+	@echo "... src/runGame.s"
 .PHONY : help
 
 

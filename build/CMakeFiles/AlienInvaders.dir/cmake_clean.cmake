@@ -1,12 +1,24 @@
 file(REMOVE_RECURSE
   "AlienInvaders"
   "AlienInvaders.pdb"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o"
@@ -19,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o.d"
   "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o"
   "CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o.d"
+  "CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o"
+  "CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

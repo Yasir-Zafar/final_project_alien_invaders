@@ -83,10 +83,24 @@ CMakeFiles/AlienInvaders.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/main.cpp.s"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/main.cpp -o CMakeFiles/AlienInvaders.dir/src/main.cpp.s
 
+CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o: /home/boi/Projects/C++/Uni/Final/src/runGame.cpp
+CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/runGame.cpp
+
+CMakeFiles/AlienInvaders.dir/src/runGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/runGame.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/runGame.cpp > CMakeFiles/AlienInvaders.dir/src/runGame.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/runGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/runGame.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/runGame.cpp -o CMakeFiles/AlienInvaders.dir/src/runGame.cpp.s
+
 CMakeFiles/AlienInvaders.dir/src/player.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/player.cpp.o: /home/boi/Projects/C++/Uni/Final/src/player.cpp
 CMakeFiles/AlienInvaders.dir/src/player.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlienInvaders.dir/src/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AlienInvaders.dir/src/player.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/player.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/player.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/player.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/player.cpp
 
 CMakeFiles/AlienInvaders.dir/src/player.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/AlienInvaders.dir/src/player.cpp.s: cmake_force
 CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o: /home/boi/Projects/C++/Uni/Final/src/bullet.cpp
 CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/bullet.cpp
 
 CMakeFiles/AlienInvaders.dir/src/bullet.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/AlienInvaders.dir/src/bullet.cpp.s: cmake_force
 CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemy.cpp
 CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemy.cpp
 
 CMakeFiles/AlienInvaders.dir/src/enemy.cpp.i: cmake_force
@@ -125,10 +139,52 @@ CMakeFiles/AlienInvaders.dir/src/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/enemy.cpp.s"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/enemy.cpp -o CMakeFiles/AlienInvaders.dir/src/enemy.cpp.s
 
+CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp
+CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp
+
+CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp > CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp -o CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s
+
+CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemyBullet.cpp
+CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemyBullet.cpp
+
+CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/enemyBullet.cpp > CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/enemyBullet.cpp -o CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.s
+
+CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemyBulletFunctions.cpp
+CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemyBulletFunctions.cpp
+
+CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/enemyBulletFunctions.cpp > CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/enemyBulletFunctions.cpp -o CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.s
+
 CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/gameFunctions.cpp
 CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/gameFunctions.cpp
 
 CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.i: cmake_force
@@ -142,7 +198,7 @@ CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.s: cmake_force
 CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/playerFunctions.cpp
 CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/playerFunctions.cpp
 
 CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.i: cmake_force
@@ -156,7 +212,7 @@ CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.s: cmake_force
 CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp
 CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp
 
 CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.i: cmake_force
@@ -167,24 +223,10 @@ CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.s"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/bulletFunctions.cpp -o CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.s
 
-CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
-CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp
-CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o"
-	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp
-
-CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i"
-	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp > CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.i
-
-CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s"
-	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/enemyFunctions.cpp -o CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.s
-
 CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
 CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: /home/boi/Projects/C++/Uni/Final/src/renderGame.cpp
 CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/renderGame.cpp
 
 CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.i: cmake_force
@@ -195,36 +237,107 @@ CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.s"
 	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/renderGame.cpp -o CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.s
 
+CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o: /home/boi/Projects/C++/Uni/Final/src/Raza/src/game.cpp
+CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/Raza/src/game.cpp
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/Raza/src/game.cpp > CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/Raza/src/game.cpp -o CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.s
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o: /home/boi/Projects/C++/Uni/Final/src/Raza/src/playerBlitz.cpp
+CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/Raza/src/playerBlitz.cpp
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/Raza/src/playerBlitz.cpp > CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/Raza/src/playerBlitz.cpp -o CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.s
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o: /home/boi/Projects/C++/Uni/Final/src/Raza/src/enemyBlitz.cpp
+CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/Raza/src/enemyBlitz.cpp
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/Raza/src/enemyBlitz.cpp > CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/Raza/src/enemyBlitz.cpp -o CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.s
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/flags.make
+CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o: /home/boi/Projects/C++/Uni/Final/src/Raza/src/bulletBlitz.cpp
+CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o: CMakeFiles/AlienInvaders.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o -MF CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o.d -o CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o -c /home/boi/Projects/C++/Uni/Final/src/Raza/src/bulletBlitz.cpp
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.i"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boi/Projects/C++/Uni/Final/src/Raza/src/bulletBlitz.cpp > CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.i
+
+CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.s"
+	/nix/store/i80k2s7lczrgr7s0dqlh1g9hhbc7gknj-clang-wrapper-16.0.6/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boi/Projects/C++/Uni/Final/src/Raza/src/bulletBlitz.cpp -o CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.s
+
 # Object files for target AlienInvaders
 AlienInvaders_OBJECTS = \
 "CMakeFiles/AlienInvaders.dir/src/main.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/player.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o" \
 "CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o" \
-"CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o" \
-"CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o"
+"CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o" \
+"CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o"
 
 # External object files for target AlienInvaders
 AlienInvaders_EXTERNAL_OBJECTS =
 
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/main.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/runGame.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/player.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/bullet.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemy.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemyBullet.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemyBulletFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/gameFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/playerFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/bulletFunctions.cpp.o
-AlienInvaders: CMakeFiles/AlienInvaders.dir/src/enemyFunctions.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/src/renderGame.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/Raza/src/game.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/Raza/src/playerBlitz.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/Raza/src/enemyBlitz.cpp.o
+AlienInvaders: CMakeFiles/AlienInvaders.dir/src/Raza/src/bulletBlitz.cpp.o
 AlienInvaders: CMakeFiles/AlienInvaders.dir/build.make
 AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-graphics.so.2.5.1
 AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-window.so.2.5.1
+AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-audio.so.2.5.1
 AlienInvaders: /nix/store/7yl5rs66arcqj2c0nwgaq0j7bdi2c08d-sfml-2.5.1/lib/libsfml-system.so.2.5.1
 AlienInvaders: CMakeFiles/AlienInvaders.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable AlienInvaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boi/Projects/C++/Uni/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable AlienInvaders"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlienInvaders.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
